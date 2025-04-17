@@ -1,9 +1,9 @@
 # QuGStep
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
 
-By [Senwei Liang](https://leungsamwai.github.io) <sup>1†</sup>, [Linghua Zhu](https://leungsamwai.github.io) <sup>1†</sup>, [Xiaosong Li](https://leungsamwai.github.io) and [Chao Yang](https://haizhaoyang.github.io/)
+By [Senwei Liang](https://leungsamwai.github.io) <sup>1†</sup>, [Linghua Zhu](https://scholar.google.com/citations?user=BNPyHf4AAAAJ&hl=en) <sup>1†</sup>, Xiaosong Li and Chao Yang
 
-This repo is the implementation of "Finite Expression Method for Solving High-Dimensional Partial Differential Equations" [[paper]](https://arxiv.org/abs/2206.10121).
+This repo is the implementation of "QuGStep: Refining Step Size Selection in Gradient Estimation for Variational Quantum Algorithms" [[paper]](https://arxiv.org/abs/2503.14366).
 
 ## Introduction
 
@@ -12,7 +12,7 @@ Finite expression method (FEX) is a new methodology that seeks an approximate PD
 ![image](fexrl.png)
 
 ## Environment
-* [PyTorch 1.0](http://pytorch.org/)
+* Qskit
 
 ## Code structure
 
@@ -30,16 +30,13 @@ Finite-expression-method
     │   Schrodinger
     │   Conservationlaw
 ```
-## Citing FEX
-If you find our code is helpful for your research, please kindly cite
+## Citing QuGStep
+If you find the code in this repo is helpful for your research, please kindly cite
 ```
-@article{liang2022finite,
-  title={Finite Expression Method for Solving High-Dimensional Partial Differential Equations},
-  author={Liang, Senwei and Yang, Haizhao},
-  journal={arXiv preprint arXiv:2206.10121},
-  year={2022}
+@article{liang2025qugstep,
+  title={QuGStep: Refining Step Size Selection in Gradient Estimation for Variational Quantum Algorithms},
+  author={Liang, Senwei and Zhu, Linghua and Li, Xiaosong and Yang, Chao},
+  journal={arXiv preprint arXiv:2503.14366},
+  year={2025}
 }
 ```
-## Acknowledgments
-
-We appreciate [bearpaw](https://github.com/bearpaw) for his [DL framework](https://github.com/bearpaw/pytorch-classification) and Taehoon Kim for his [RL fromework](https://github.com/carpedm20/ENAS-pytorch).
