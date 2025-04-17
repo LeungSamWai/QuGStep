@@ -1,4 +1,4 @@
-# QuGStep
+# QuGStep for Variational Quantum Algorithms
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
 
 By [Senwei Liang](https://leungsamwai.github.io) <sup>1†</sup>, [Linghua Zhu](https://scholar.google.com/citations?user=BNPyHf4AAAAJ&hl=en) <sup>1†</sup>, Xiaosong Li and Chao Yang
@@ -7,7 +7,7 @@ This repo is the implementation of "QuGStep: Refining Step Size Selection in Gra
 
 ## Introduction
 
-Finite expression method (FEX) is a new methodology that seeks an approximate PDE solution in the space of functions with finitely many analytic expressions. This repo provides a deep reinforcement learning method to implement FEX for various high-dimensional PDEs in different dimensions.
+Variational quantum algorithms combine quantum circuits with classical optimization to tackle complex problems but are hindered by noise from limited measurement shots. Gradient estimation via finite differences is particularly sensitive to the step size used, with poor choices amplifying noise and degrading optimization. **QuGStep** is an algorithm that determines the optimal step size for finite-difference gradients under a shot budget. 
 
 ![image](fexrl.png)
 
