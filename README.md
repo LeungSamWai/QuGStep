@@ -1,7 +1,7 @@
 # QuGStep
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
 
-By [Senwei Liang](https://leungsamwai.github.io)*, [Linghua Zhu](https://leungsamwai.github.io)*, [Xiaosong Li](https://leungsamwai.github.io) and [Chao Yang](https://haizhaoyang.github.io/)
+By [Senwei Liang](https://leungsamwai.github.io) <sup>1†</sup>, [Linghua Zhu](https://leungsamwai.github.io) <sup>1†</sup>, [Xiaosong Li](https://leungsamwai.github.io) and [Chao Yang](https://haizhaoyang.github.io/)
 
 This repo is the implementation of "Finite Expression Method for Solving High-Dimensional Partial Differential Equations" [[paper]](https://arxiv.org/abs/2206.10121).
 
