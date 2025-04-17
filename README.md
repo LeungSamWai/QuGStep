@@ -30,6 +30,17 @@ Finite-expression-method
     │   Schrodinger
     │   Conservationlaw
 ```
+
+## How to run
+
+* Run
+```
+
+```
+* BeH2 experiment. `--shots`: number of shots; `--eps`: finite difference step size; `--init`: constant initialization; `--trial`: trial index; 
+```
+python BeH2_36d.py --shots 600 --eps 0.001 --init 1.5 --trial 1
+```
 ## Citing QuGStep
 If you find the code in this repo is helpful for your research, please kindly cite
 ```
