@@ -17,18 +17,13 @@ Variational quantum algorithms combine quantum circuits with classical optimizat
 ## Code structure
 
 ```
-Finite-expression-method
+QuGStep
 │   README.md    <-- You are here
 │
-└─── fex    ----> three numerical examples with FEX
-│   │   Poisson
-│   │   Schrodinger
-│   │   Conservationlaw
+└─── BeH2   
+│   │   BeH2_36d.py
 │   
-└─── nn     ----> three numerical examples with NN
-    │   Poisson
-    │   Schrodinger
-    │   Conservationlaw
+└─── QuGstep.png
 ```
 
 ## How to run
@@ -37,7 +32,7 @@ Finite-expression-method
 ```
 
 ```
-* BeH2 experiment. `--shots`: number of shots; `--eps`: finite difference step size; `--init`: constant initialization; `--trial`: trial index; 
+* BeH2 experiment. `--shots`: number of shots `--eps`: finite difference step size `--init`: constant initialization `--trial`: trial index; 
 ```
 python BeH2_36d.py --shots 600 --eps 0.001 --init 1.5 --trial 1
 ```
