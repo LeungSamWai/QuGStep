@@ -9,7 +9,7 @@ This repo is the implementation of "QuGStep: Refining Step Size Selection in Gra
 
 Variational quantum algorithms combine quantum circuits with classical optimization to tackle complex problems but are hindered by noise from limited measurement shots. Gradient estimation via finite differences is particularly sensitive to the step size used, with poor choices amplifying noise and degrading optimization. **QuGStep** is an algorithm that determines the optimal step size for finite-difference gradients under a shot budget. 
 
-![image](fexrl.png)
+![image](QuGstep.png)
 
 ## Environment
 * Qskit
